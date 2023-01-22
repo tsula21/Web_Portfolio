@@ -613,7 +613,29 @@ kbd kbd {
   font-size: 100%;
   font-weight: 700;
 }
-
+/* =================================== */
+.tools {
+  display: flex;
+  align-items: baseline;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 20px;
+}
+.tools img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+  opacity: 0.6;
+}
+.tools img:last-child {
+  margin-right: 0px;
+}
+.tools img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
 pre {
   display: block;
   font-size: 87.5%;
